@@ -1,0 +1,4 @@
+<thlogic>
+    <attr sel = "#headId" th:fragment = "headFragment"/>
+    <attr sel = "#gameName" th:text = "#{game.gameName}"/>
+</thlogic>

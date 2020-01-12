@@ -1,0 +1,16 @@
+<thlogic>
+    <attr sel = "#headId"
+     th:replace = "~{fragments/head ::headFragment}"/>
+    <attr sel = "#title" th:text="#{game.title}"/>
+    <attr sel = "#mainMessage"
+     th:text = "${__${T(kosta.programming.util.AttributeNames).MAIN_MESSAGE}__}"/>
+    <attr sel = "#resultMessage"
+     th:text = "${__${T(kosta.programming.util.AttributeNames).RESULT_MESSAGE}__}"/>
+    <attr sel = "#guessTitle" th:text="#{game.guessTitle}"/>
+    <attr sel = "#submit" th:value="#{game.submit}"/>
+    <attr sel = "#footerId"
+          th:replace = "~{fragments/footer :: footer}"/>
+    <attr sel = "#formId"
+          th:action = "@{__${T(kosta.programming.util.Mappings).PLAY}__}" action = "play" method="post"/>
+
+</thlogic>

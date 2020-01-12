@@ -1,0 +1,7 @@
+<thlogic>
+    <attr sel = "#play"
+     th:href = "@{__${T(kosta.programming.util.Mappings).PLAY}__}" th:text = "#{game.play}"/>
+    <attr sel = "#footerId"
+          th:replace = "~{fragments/footer :: footer}"/>
+    <attr sel = "#welcome" th:text="#{game.welcome}"/>
+</thlogic>

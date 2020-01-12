@@ -1,0 +1,10 @@
+kosta\programming\config\WebConfig.class
+kosta\programming\service\GameService.class
+kosta\programming\service\GameServiceImpl.class
+kosta\programming\util\AttributeNames.class
+kosta\programming\interceptor\RequestInterceptor.class
+kosta\programming\util\Mappings.class
+kosta\programming\util\ViewNames.class
+kosta\programming\contollers\GameController.class
+kosta\programming\util\thymeleaf\DecoupledTemplateLogic.class
+kosta\programming\MainWeb.class

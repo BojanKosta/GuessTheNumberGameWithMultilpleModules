@@ -1,0 +1,13 @@
+<thlogic>
+    <attr sel = "#pageTitle" th:text="#{game.gameOver}"/>
+    <attr sel = "#resultMessage"
+     th:text = "${__${T(kosta.programming.util.AttributeNames).RESULT_MESSAGE}__}"/>
+    <attr sel = "#gameName" th:text = "#{game.gameName}"/>
+    <attr sel = "#gameOver" th:text="#{game.gameOver}"/>
+    <attr sel = "#mappingsHome"
+     th:href = "@{__${T(kosta.programming.util.Mappings).HOME}__}" th:text = "#{game.home}"/>
+    <attr sel = "#mappingsRestart"
+    th:href = "@{__${T(kosta.programming.util.Mappings).RESTART}__}" th:text = "#{game.playAgain}"/>
+    <attr sel = "#footerId"
+          th:replace = "~{fragments/footer :: footer}"/>
+</thlogic>
